@@ -16,6 +16,18 @@ header {
   font-weight: 100;
 }
 
+@media (max-width: 600px) {
+  header {
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .logo {
+    text-align: center;
+    width: 100%;
+  }
+}
+
 hr {
   height: 2px;
   background-color: rgb(238, 238, 238);
