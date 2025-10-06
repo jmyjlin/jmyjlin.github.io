@@ -28,6 +28,31 @@ header {
   }
 }
 
+.resume-link {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  font-weight: 300;
+  text-decoration: none;
+  color: black;
+  font-size: 18px;
+}
+
+.resume-link:hover {
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-direction: column;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .resume-link {
+    text-align: center;
+  }
+}
+
 hr {
   height: 2px;
   background-color: rgb(238, 238, 238);
