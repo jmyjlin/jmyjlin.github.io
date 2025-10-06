@@ -16,16 +16,8 @@ header {
   font-weight: 100;
 }
 
-@media (max-width: 600px) {
-  header {
-    justify-content: center;
-    padding: 15px;
-  }
-
-  .logo {
-    text-align: center;
-    width: 100%;
-  }
+.middle-name {
+  color: rgb(170, 170, 170);
 }
 
 hr {
@@ -43,27 +35,54 @@ p {
 }
 
 .nav-list {
-  margin: 30px 0px 0px 55px;
+  margin: 30px 0 0 55px;
+  padding: 0;
   list-style: none;
+  display: flex;
+  gap: 8px;
 }
 
 .nav-list li {
-  display: inline-block;
-  padding: 0px 15px;
+  display: flex;
+  align-items: center;
+  font-family: Helvetica, Arial, sans-serif;
+  font-size: 18px;
 }
 
-.nav-list a i {
-    font-size: 30px;
+.nav-list li:not(:last-child)::after {
+  content: "•";
+  margin-left: 8px;
+  font-size: 26px;
+  font-weight: bold;
+  line-height: 0;
 }
 
-.fa-github {
-  color: rgb(23, 21, 21);
+.nav-list a {
+  color: rgb(61, 117, 214);
+  text-decoration: none;
 }
 
-.fa-linkedin {
-  color: rgb(45, 100, 188);
+.nav-list a:hover {
+  text-decoration: underline;
 }
 
-.fa-envelope {
-  color: rgb(34, 48 ,78);
+@media (max-width: 600px) {
+  header {
+    justify-content: center;
+    padding: 15px;
+  }
+
+  .logo {
+    text-align: center;
+    width: 100%;
+  }
+
+  .nav-list {
+    justify-content: center;
+    margin: 30px 0 0 0;
+  }
+
+  .nav-list a {
+    line-height: 1.8;
+  }
 }
