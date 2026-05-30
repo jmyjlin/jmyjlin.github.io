@@ -1,3 +1,3 @@
 My Personal Website
 
-<img width="1322" height="241" alt="Screenshot 2025-10-15 at 18 37 35" src="https://github.com/user-attachments/assets/3b717e20-07a5-461d-aa6c-c059d32a5d64" />
+<img width="1283" height="656" alt="preview of personal website" src="https://github.com/user-attachments/assets/d6380dee-be63-4100-9f7a-1e237f262d4e" />
