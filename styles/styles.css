@@ -68,6 +68,7 @@ p {
   .logo {
     text-align: center;
     width: 100%;
+    font-size: 25px;
   }
 
   .nav-list {
