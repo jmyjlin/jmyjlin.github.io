@@ -1,3 +1,3 @@
 Personal Website
 
-<img width="1283" height="656" alt="preview of personal website" src="https://github.com/user-attachments/assets/d6380dee-be63-4100-9f7a-1e237f262d4e" />
+<img width="1412" height="815" alt="Screenshot 2026-06-02 at 21 49 31" src="https://github.com/user-attachments/assets/eef5e6ec-9a18-4024-9351-88a888f1bcb7" />
